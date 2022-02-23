@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>School students</title>
+
+    <link rel="stylesheet" href="student.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+
+    <h1 class="navbarheading">Student Administration System</h1>
+
+    <div class="toppen">
+        <a class="active" href="index">Home</a>
+        <a href="students">Students</a>
+        <a href="aboutus">About us</a>
+        <img class="billedeforside" src="/billede.jpg" alt="">
+
+    </div>
+</div>
+
+
+<div style="margin-top: 200px" class="container">
+
+    <div class="studinfo">
+        <h1>Student information</h1>
+    </div>
+
+    <div class="addStudent">
+        <a style="color: white" th:href="@{/students/new}" class="addContent">Add student</a>
+    </div>
+
+    <table style="width:100%">
+        <thead>
+        <tr>
+            <th>Student first name</th>
+            <th>Student last name</th>
+            <th>Student age</th>
+            <th>Student email</th>
+            <th>Update/Remove
+                student
+            </th>
+
+        </tr>
+        </thead>
+
+        <tbody>
+
+        <tr th:each="student: ${students}">
+            <td class="tdtext" th:text="${student.firstName}"></td>
+            <td class="tdtext" th:text="${student.lastName}"></td>
+            <td class="tdtext" th:text="${student.age}"></td>
+            <td class="tdtext" th:text="${student.email}"></td>
+            <td>
+                <a th:href="@{/students/update/{id}(id=${student.id})}"
+                   class="updateStudent">Update</a>
+
+                <a th:href="@{/students/{id}(id=${student.id})}"
+                   class="deleteStudent">Remove</a>
+            </td>
+
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+</div>
+</body>
+</html>
