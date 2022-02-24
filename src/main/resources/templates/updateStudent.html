@@ -24,7 +24,7 @@
     margin-right: 200px;
 }
 
-.form-control{
+.form-text{
      width: 95%;
      padding: 12px;
      border: 1px solid #ccc;
@@ -83,44 +83,44 @@ h1{
 
             <div class="card-body">
                 <form th:action="@{/students/{id} (id=${student.id})}" th:object="${student}" method="POST">
-                    <div class="form-group">
+                    <div class="form-info">
                         <label>Student's first name</label>
                         <input
                                 type="text"
                                 name="firstName"
                                 th:field = "*{firstName}"
-                                class="form-control"
+                                class="form-text"
                                 placeholder="Add student's first name"
                         />
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-info">
                         <label>Student's last name</label>
                         <input
                                 type="text"
                                 name="firstName"
                                 th:field = "*{lastName}"
-                                class="form-control"
+                                class="form-text"
                                 placeholder="Add student's last name"
                         />
                     </div>
-                    <div class="form-group">
+                    <div class="form-info">
                         <label>Student's </label>
                         <input
                                 type="text"
                                 name="age"
                                 th:field = "*{age}"
-                                class="form-control"
+                                class="form-text"
                                 placeholder="Add student's age"
                         />
                     </div>
-                    <div class="form-group">
+                    <div class="form-info">
                         <label>Student's email</label>
                         <input
                                 type="text"
                                 name="firstName"
                                 th:field = "*{email}"
-                                class="form-control"
+                                class="form-text"
                                 placeholder="Add student's email"
                         />
                     </div>
