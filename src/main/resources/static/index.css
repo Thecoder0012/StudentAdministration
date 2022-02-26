@@ -1,3 +1,7 @@
+/* =============
+   Global styles
+   ============= */
+
 body{
     background-color: rgba(211, 128, 51, 0.753);
     background-size: cover;
@@ -15,7 +19,7 @@ h1{
     color: white;
 }
 
-.toppen {
+.top-side{
     position: relative;
     overflow: hidden;
     background-color: #004F54;
@@ -24,7 +28,7 @@ h1{
 }
 
 
-.toppen a {
+.top-side a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -33,14 +37,12 @@ h1{
     font-size: 17px;
 }
 
-/* NavBar hover */
-.toppen a:hover {
+.top-side a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Properties for the main button */
-.toppen a.active {
+.top-side a.active {
     background-color: transparent;
     color: white;
 }

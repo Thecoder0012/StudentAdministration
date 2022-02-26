@@ -3,15 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-<!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"-->
-<!--          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"-->
-<!--          crossorigin="anonymous">-->
-<!--    <link rel="stylesheet" href="index.css">-->
-<!--    <link rel="stylesheet" type="text/css" href="update.css" media=”screen”/>-->
 
     <style>
 
-.header{
+.heading{
    text-align: center;
 }
 
@@ -77,11 +72,10 @@ h1{
 
 
 <div style="margin-top: 200px" class="container">
-    <div class="row">
-        <div class="cont">
-            <h1 class="header">Update student</h1>
 
-            <div class="card-body">
+            <h1 class="heading">Update student</h1>
+
+            <div class="form-container">
                 <form th:action="@{/students/{id} (id=${student.id})}" th:object="${student}" method="POST">
                     <div class="form-info">
                         <label>Student's first name</label>
@@ -105,7 +99,7 @@ h1{
                         />
                     </div>
                     <div class="form-info">
-                        <label>Student's </label>
+                        <label>Student's age </label>
                         <input
                                 type="text"
                                 name="age"
@@ -125,15 +119,11 @@ h1{
                         />
                     </div>
 
-                    <div class="footer-body">
-
+                    <div class="saveButton">
                         <button type="submit" class="save">Save changes</button>
-
                     </div>
 
                 </form>
-            </div>
-        </div>
     </div>
 </div>
 

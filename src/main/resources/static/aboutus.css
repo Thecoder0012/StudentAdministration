@@ -1,3 +1,7 @@
+/* =============
+   Global styles
+   ============= */
+
 body{
     background-color: rgba(211, 128, 51, 0.753);
     background-size: cover;
@@ -41,7 +45,7 @@ body{
     text-align: justify;
 }
 
-.toppen {
+.top-side {
     position: relative;
     overflow: hidden;
     background-color: #004F54;
@@ -49,7 +53,7 @@ body{
     border-radius: 10px;
 }
 
-.toppen a {
+.top-side a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -58,12 +62,12 @@ body{
     font-size: 17px;
 }
 
-.toppen a:hover {
+.top-side a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.toppen a.active {
+.top-side a.active {
     background-color: transparent;
     color: white;
 }

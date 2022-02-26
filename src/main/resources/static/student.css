@@ -34,7 +34,7 @@
     margin-left: 540px;
     font-size: 1.5em;
 }
-.toppen {
+.top-side {
     position: relative;
     overflow: hidden;
     background-color: #004F54;
@@ -43,7 +43,7 @@
 }
 
 
-.toppen a {
+.top-side a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -52,14 +52,12 @@
     font-size: 17px;
 }
 
-/* NavBar hover */
-.toppen a:hover {
+.top-side a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Properties for the main button */
-.toppen a.active {
+.top-side a.active {
     background-color: transparent;
     color: white;
 }

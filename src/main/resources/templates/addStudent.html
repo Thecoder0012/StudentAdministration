@@ -6,7 +6,7 @@
 
         <style>
 
-.header {
+.heading {
 text-align: center;
 }
 
@@ -72,9 +72,8 @@ h1 {
 
 
 <div style="margin-top: 200px" class="container">
-    <div class="row">
         <div>
-            <h1 class="header">Add new student</h1>
+            <h1 class="heading">Add new student</h1>
 
             <div>
                 <form th:action="@{/students}" th:object="${addStudents}" method="POST">
@@ -126,7 +125,6 @@ h1 {
 
                 </form>
             </div>
-        </div>
     </div>
 </div>
 
