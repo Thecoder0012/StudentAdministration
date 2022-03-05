@@ -14,7 +14,7 @@ body{
     border-radius: 20px;
 }
 
-.aboutText {
+.about-text {
     position: relative;
     border-radius: 10px;
     box-shadow: 0px 0px 4px rgba(192, 203, 202, 0.3);
@@ -29,14 +29,14 @@ body{
     background: #FFFFFF;
 }
 
-.aboutText h1{
+.about-text h1{
     margin:0;
     padding-top: 5px;
     font-size: 2em;
     text-align: center;
 }
 
-.aboutText p{
+.about-text p{
     padding:50px 60px;
     width: 300px;
     color: #000;

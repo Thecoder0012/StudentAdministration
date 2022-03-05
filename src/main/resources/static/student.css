@@ -22,14 +22,14 @@
     margin-top: -10px;
 }
 
-.navbar .navbarheading {
+.navbar .navbar-heading {
     color: whitesmoke;
     margin-left: 400px;
     padding: 25px 25px;
     font-size: 3em;
 }
 
-.container .studinfo {
+.container .stud-info {
     margin-top: -70px;
     margin-left: 540px;
     font-size: 1.5em;
@@ -85,7 +85,7 @@ table tr:hover {
     background-color: #ddd;
 }
 
-.tdtext {
+.td-text {
     padding: 10px 12px;
 }
 
@@ -112,13 +112,13 @@ table tr:hover {
       Buttons
    ============= */
 
-.addStudent {
+.add-student {
     position: absolute;
     margin-top: -40px;
     margin-left: 1300px;
 }
 
-.addStudent .addContent {
+.add-student .add-content {
     text-decoration: none;
     outline: none;
     border: transparent;
@@ -130,11 +130,11 @@ table tr:hover {
     padding: 8px 12px;
 }
 
-.addStudent .addContent:hover {
+.add-student .add-content:hover {
     background-color: blue;
 }
 
-.updateStudent {
+.update-student {
     text-decoration: none;
     outline: none;
     border: transparent;
@@ -152,7 +152,7 @@ table tr:hover {
     box-sizing: border-box;
 }
 
-.deleteStudent {
+.delete-student {
     text-decoration: none;
     outline: none;
     border: transparent;

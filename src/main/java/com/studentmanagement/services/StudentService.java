@@ -2,17 +2,14 @@ package com.studentmanagement.services;
 
 import com.studentmanagement.models.Student;
 import com.studentmanagement.repository.StudentRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 @org.springframework.stereotype.Service
 public class StudentService {
 
-
+    @Autowired
     private StudentRepository studentRepository;
-
-    public StudentService(StudentRepository studentRepository) {
-        this.studentRepository = studentRepository;
-    }
 
 
     public List<Student> getStudents() {
