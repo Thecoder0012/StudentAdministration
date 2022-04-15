@@ -12,7 +12,7 @@ This is a website where you can manage school student information. You will be a
 Clone my project with this link below:
 
 ```bash
- https://github.com/Thecoder0012/AntiqueShop.git
+https://github.com/Thecoder0012/StudentAdministration.git
 ```
 ## Optimizations
 
