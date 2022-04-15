@@ -16,7 +16,7 @@ https://github.com/Thecoder0012/StudentAdministration.git
 ```
 ## Optimizations
 
-What optimizations did you make in your code? This was a project created and uploaded couple months ago. Today, I have been doing changes in the layout, and greatly optimised the frontend code.
+This was a project created and uploaded couple months ago. Today, I have been doing changes in the layout, and greatly optimised the frontend code.
 
 ## Tech Stack
 
