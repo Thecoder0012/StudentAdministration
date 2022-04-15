@@ -35,7 +35,7 @@ This was a project created and uploaded couple months ago. Today, I have been do
 
 #### Who is this website for?
 
-For teachers
+For schools
 
 #### What can you do?
 
