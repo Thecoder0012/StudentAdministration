@@ -20,9 +20,9 @@ This was a project created and uploaded couple months ago. Today, I have been do
 
 ## Tech Stack
 
-**Client:** Html, CSS
+**Client:** Html, CSS, Thymeleaf
 
-**Server:** Spring-boot (java-framework), MySql
+**Server:** Spring-boot (java-backend), MySql, Hibernate
 
    
    ## Screenshot from website
