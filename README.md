@@ -22,7 +22,7 @@ This was a project created and uploaded couple months ago. Today, I have been do
 
 **Client:** Html, CSS, Thymeleaf
 
-**Server:** Spring-boot (java-backend), MySql, Hibernate
+**Server:** Java (Spring-boot) MySql, Hibernate
 
    
    ## Screenshot from website
