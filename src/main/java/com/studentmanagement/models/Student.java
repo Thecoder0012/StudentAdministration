@@ -1,5 +1,6 @@
 package com.studentmanagement.models;
 
+
 import javax.persistence.*;
 
 @Entity
@@ -9,7 +10,7 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "firstname",nullable = false)
+    @Column(name = "firstname", nullable = false)
     private String firstName;
 
     @Column
@@ -17,15 +18,14 @@ public class Student {
 
     @Column(name = "lastname")
     private String lastName;
-
     @Column(name = "email")
     private String email;
 
 
-
-    public Student(){
+    public Student() {
 
     }
+
     public Student(String firstName, String lastName, int age, String email) {
         this.firstName = firstName;
         this.lastName = lastName;

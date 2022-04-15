@@ -1,0 +1,35 @@
+/* =============
+   Global styles
+   ============= */
+
+.about-us-text {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(192, 203, 202, 0.3);
+    color: black;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    background: #FFFFFF;
+}
+
+.about-us-text h1 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.about-us-text p {
+    padding: 4% 11%;
+    width: 71%;
+    color: #000;
+    font-size: 1.3em;
+    font-family: New Peninim MT;
+    line-height: 2.25em;
+    text-align: justify;
+}

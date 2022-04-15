@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class InfoController {
 
-    @GetMapping("/aboutus")
+    @GetMapping("/about-us")
     public String getInfo(){
-        return "aboutus";
+        return "about-us";
     }
 }

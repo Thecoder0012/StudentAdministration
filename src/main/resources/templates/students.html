@@ -15,10 +15,10 @@
 
     <h1 class="navbar-heading">Student Administration System</h1>
 
-    <div class="top-side">
-        <a class="active" href="index">Home</a>
-        <a href="students">Students</a>
-        <a href="aboutus">About us</a>
+    <div class="nav-bar">
+        <a class="activ" href="index">Home</a>
+        <a class="active" href="students">Students</a>
+        <a href="about-us">About us</a>
 
     </div>
 </div>
@@ -49,7 +49,6 @@
         </thead>
 
         <tbody>
-
         <tr th:each="student: ${students}">
             <td class="td-text" th:text="${student.firstName}"></td>
             <td class="td-text" th:text="${student.lastName}"></td>

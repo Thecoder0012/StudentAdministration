@@ -1,4 +1,4 @@
-package com.studentmanagement.services;
+package com.studentmanagement.service;
 
 import com.studentmanagement.models.Student;
 import com.studentmanagement.repository.StudentRepository;

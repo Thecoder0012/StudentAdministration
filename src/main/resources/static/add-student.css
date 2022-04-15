@@ -1,0 +1,55 @@
+body{
+    background: lightblue;
+}
+.heading {
+    text-align: center;
+}
+
+.container {
+    border-radius: 20px;
+    background: #01575C;
+    padding: 1% 2%;
+    width: 40%;
+    margin: 8% 0 0 30%;
+}
+
+.form-text {
+    width: 65%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 5% 5%;
+    font-size: 1.5em;
+}
+
+
+
+ .btn {
+    background: cadetblue;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 33%;
+    width: 30%;
+    border-radius: 20px;
+}
+
+ .btn:hover {
+    background-color: white;
+    border-color: black;
+     color: #000;
+    transition: all .1s ease-in-out;
+}
+
+label {
+    font-size: 2.5em;
+    margin-left: 25px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}

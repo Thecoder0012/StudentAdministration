@@ -1,7 +1,7 @@
 package com.studentmanagement.controllers;
 
 import com.studentmanagement.models.Student;
-import com.studentmanagement.services.StudentService;
+import com.studentmanagement.service.StudentService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +18,6 @@ public class StudentController {
         this.studentService = studentService;
     }
 
-
     @GetMapping("/students")
     public String studentList(Model model) {
         model.addAttribute("students", studentService.getStudents());
@@ -29,19 +28,20 @@ public class StudentController {
     public String addStudent(Model model) {
         Student student = new Student();
         model.addAttribute("addStudents", student);
-        return "addStudent";
+        return "add-student";
     }
 
     @PostMapping("/students")
     public String saveStudent(@ModelAttribute("addStudents") Student student) {
-        studentService.saveStudent(student);
-        return "redirect:/students";
-    }
+            studentService.saveStudent(student);
+            return "redirect:/students";
+        }
+
 
     @GetMapping("/students/update/{id}")
     public String updateStudent(@PathVariable Long id, Model model) {
         model.addAttribute("student", studentService.getStudent(id));
-        return "updateStudent";
+        return "update-student";
     }
 
     @PostMapping("/students/{id}")
